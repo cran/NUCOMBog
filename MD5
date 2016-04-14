@@ -1,0 +1,14 @@
+b932fd9e393eb4b76d9084723cc5d926 *DESCRIPTION
+483d2a1dc16ee3a98431a2dc602372df *NAMESPACE
+ba76f06d88c33885e61535048f3c021c *R/combine_setup_parameters.R
+79bbca24c6c6ad5d7e01e5457b2204f1 *R/getData.R
+87846e64731a716f8058f514193a4ac8 *R/make_filenames.r
+7d33d471b607227d8152985c982a8860 *R/make_param_file.R
+345254014b8bc1f7d26d4bfe4e25e24f *R/runNUCOM.r
+d520aba2fbf620cc13d277c286a7df0b *R/runNUCOM_wrapper.R
+94f39eaef191cba65014e2ba2a964e8a *R/runparallelNUCOM.r
+8ba52f781b11856de7c5e93f971baffb *R/setupNUCOM.r
+094b385a2f59c6d6c97e7f73e5a3897e *man/getData.Rd
+39ba3e1931c6084f3d1cd01565708f61 *man/runNUCOM.Rd
+defe6ae6f7a56dbdf1b94c552f5c649b *man/runparallelNUCOM.Rd
+57434a229998aa300c834ea5a5385af5 *man/setupNUCOM.Rd
