@@ -1,11 +1,11 @@
 runnucom_wrapper<-function(runParameters){
-
+  startval <- runParameters$startval
   setwd(dir = runParameters$runDir)
 
   make_filenames(WD = runParameters$runDir,climate = runParameters$climate,environment = runParameters$environment,inival = runParameters$inival,start = runParameters$start,end = runParameters$end)
 
   allpar<-make_param_file(WD = runParameters$runDir,par = runParameters$parameter)
-  startval<- runParameters$startval
+
 
   if(.Platform$OS.type=="unix"){
     system("./modelMEE")}

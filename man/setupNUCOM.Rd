@@ -2,7 +2,7 @@
 % Please edit documentation in R/setupNUCOM.r
 \name{setupNUCOM}
 \alias{setupNUCOM}
-\title{make setup_NUCOM}
+\title{make setupNUCOM}
 \source{
 The model can be sent upon request at jeroenpullens[at]gmail[dot]com
 }

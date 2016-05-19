@@ -13,16 +13,17 @@
 #'
 #' The getData function is integrated in all runnucom functions.
 #'
-#'@param setup setup_structure described in setup_NUCOM
-#'@param startval When a spinup is used for the model and not all output is necessary, this "startval" parameter can be used to cut the output off, i.e. the starting row from which the "outmo.txt" file is loaded. Default is 1.
+#'@param setup setup_structure described in setupNUCOM
+#'@param startval From which row does the output need to be loaded. Default is 1, has to be setup in the setupNUCOM function.
+#'
 #'
 #'@examples
 #'\dontrun{
-#'getData(setup=test_setup_singlecore,startval=1)
+#'getData(setup=test_setup_singlecore)
 #'}
 #' @export
 
-getData<-function(setup,startval){
+getData<-function(setup,startval=startval){
   out=list()
   NPP=numeric()
   NEE=numeric()
