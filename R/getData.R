@@ -1,7 +1,7 @@
 #'@title Function to retrieve data from the monthly output file created by NUCOMBog
 #'
 #'@author JWM Pullens
-#'@source The model can be sent upon request at jeroenpullens[at]gmail[dot]com
+#'@source The test data can be downloaded from \url{http://jeroenpullens.github.io/NUCOMBog_data/}. And the executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
 #'
 #'@description
 #'This function returns the data from the monthly output file created by NUCOMBog.
@@ -23,7 +23,7 @@
 #'}
 #' @export
 
-getData<-function(setup,startval=startval){
+getData<-function(setup,startval=setup$runParameters[[1]]$startval){
   out=list()
   NPP=numeric()
   NEE=numeric()

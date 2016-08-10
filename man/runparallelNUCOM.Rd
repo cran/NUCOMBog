@@ -4,10 +4,11 @@
 \alias{runparallelNUCOM}
 \title{Run parallel NUCOM}
 \source{
-The model can be sent upon request at jeroenpullens[at]gmail[dot]com
+The test data can be downloaded from \url{http://jeroenpullens.github.io/NUCOMBog_data/}. And the executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
 }
 \usage{
-runparallelNUCOM(setup, clustertype, numCores = 1, parameters)
+runparallelNUCOM(setup, clustertype, numCores = 1, parameters,
+  MPI_server = F)
 }
 \arguments{
 \item{setup}{The setup needs to be made before by running the setup_NUCOM function.}
@@ -17,6 +18,8 @@ runparallelNUCOM(setup, clustertype, numCores = 1, parameters)
 \item{numCores}{Number of Cores on which are model needs to be run (NOTE: Non-parallel runs can only be run on 1 core). Default is 1.}
 
 \item{parameters}{The parameters which are used in the model. If no parameter values are given the default values will be used. The parameters have to have the format of a dataframe with colum names: "names" and "values", see example \url{https://github.com/jeroenpullens/NUCOMBog_data}. The default parameters are from Heijmans et al. 2008.}
+
+\item{MPI_server}{set to TRUE if after each iteration the MPI server needs to be destroyed. Default is FALSE}
 }
 \description{
 Code to run NUCOMBog parallel on multiple cores.
