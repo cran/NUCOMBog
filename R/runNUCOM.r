@@ -2,7 +2,7 @@
 #'
 #' @description Code to run NUCOMBog on a single core.
 #' @author JWM Pullens
-#' @source The test data can be downloaded from \url{http://jeroenpullens.github.io/NUCOMBog_data/}. And the executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
+#' @source The executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}
 #'
 #' @param setup The setup structure created by setup_NUCOM function needs to be inserted here, for more information see the setup_NUCOM function help, by typing "?NUCOMBog::setup_NUCOM".
 #' @param parameters The parameters which are used in the model. If no parameter values are given the default values will be used. The parameters have to have the format of a dataframe with colum names: "names" and "values".
@@ -20,7 +20,7 @@
 #' runNUCOM(setup = test_setup_singlecore,parameters=initialParameters)
 #'
 #' ## with predefined parameters:
-#' runNUCOM(setup = test_setup_singlecore,parameters=NULL)
+#' runnucom(setup = test_setup_singlecore,parameters=NULL)
 #'}
 #' @export
 

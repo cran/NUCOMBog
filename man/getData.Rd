@@ -4,10 +4,10 @@
 \alias{getData}
 \title{Function to retrieve data from the monthly output file created by NUCOMBog}
 \source{
-The test data can be downloaded from \url{http://jeroenpullens.github.io/NUCOMBog_data/}. And the executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
+The executable and the source code of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
 }
 \usage{
-getData(setup, startval = setup$runParameters[[1]]$startval)
+getData(setup, startval = startval)
 }
 \arguments{
 \item{setup}{setup_structure described in setupNUCOM}

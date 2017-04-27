@@ -4,7 +4,7 @@
 \alias{runNUCOM}
 \title{Run NUCOMBog}
 \source{
-The test data can be downloaded from \url{http://jeroenpullens.github.io/NUCOMBog_data/}. And the executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
+The executable of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}
 }
 \usage{
 runNUCOM(setup, parameters = NULL)
@@ -28,7 +28,7 @@ names(initialParameters)<-c("names","values")
 runNUCOM(setup = test_setup_singlecore,parameters=initialParameters)
 
 ## with predefined parameters:
-runNUCOM(setup = test_setup_singlecore,parameters=NULL)
+runnucom(setup = test_setup_singlecore,parameters=NULL)
 }
 }
 \author{

@@ -4,7 +4,7 @@
 \alias{setupNUCOM}
 \title{make setupNUCOM}
 \source{
-The model can be sent upon request at jeroenpullens[at]gmail[dot]com
+The executable and the source code of the model can downloaded from \url{https://github.com/jeroenpullens/source_modelMEE}.
 }
 \usage{
 setupNUCOM(mainDir, climate, environment, inival, start, end, type,
@@ -38,6 +38,8 @@ A list with paths and filenames and parameter values which can be implemented in
 }
 \description{
 Code to make the setup structure needed run the model.
+
+The data used in the example is stored in the package and can be copied to a user specified location via the copytestdata function of this package.
 }
 \examples{
 \dontrun{
