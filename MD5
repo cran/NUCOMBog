@@ -1,4 +1,4 @@
-7b8d047b57684470971696d044d11486 *DESCRIPTION
+035bf401f6f7df23e00610e2f2f4b657 *DESCRIPTION
 51d1efda7744d1743914b839f5c591b3 *NAMESPACE
 4885b134886a30f6f3c07ce86385608c *NEWS
 ece885b14840a66eecde59c3aa9c081e *R/NUCOMBog.R
@@ -11,9 +11,10 @@ d42f085c3d04b7b13d5aec3a94d90842 *R/copytestdata.R
 056a29524a84b02bf3f44e763ce78fc5 *R/runNUCOM_wrapper.R
 ab914136c657b1a3d2c2e4811b9239e6 *R/runparallelNUCOM.r
 fa8b3a01b5aca23ea93317bb83b0eb35 *R/setupNUCOM.r
-bbc2fe8507b0bffbdda1695f2e1fe838 *build/vignette.rds
+fddb146ab9f205e50f550abe0d7d8918 *build/vignette.rds
+f39f9ff74388eec4458a2840fc7ee9be *inst/CITATION
 d6141d2c79efc581dabb3dca7e94e045 *inst/doc/NUCOMBog.ltx
-46fc276fca14d494a347344af0286bb0 *inst/doc/NUCOMBog.pdf
+651a25212865f6e67555e2bd71bd14f8 *inst/doc/NUCOMBog.pdf
 0965ddb2ba71d8cdd5940f1b913f15ce *inst/extdata/input/ClimLVMfut.txt
 8c5c6af77b022fdaf21c2a9f385f0a44 *inst/extdata/input/ClimLVMhis.txt
 79a4da1bb7373d43c1a5ab00818256dc *inst/extdata/input/ClimWLMfut.txt
